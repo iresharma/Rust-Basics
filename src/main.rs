@@ -1,0 +1,45 @@
+mod print;
+mod vars;
+mod types;
+mod strings;
+mod tuples;
+mod arrays;
+mod vectors;
+mod conditionals;
+mod loops;
+mod functions;
+mod pointers;
+mod structs;
+mod enums;
+mod cli;
+
+fn main() {
+    println!("-------------------Prints------------------");
+    print::run();
+    println!("-------------------Vars------------------");
+    vars::run();
+    println!("-------------------Data Types------------------");
+    types::run();
+    println!("-------------------Strings------------------");
+    strings::run();
+    println!("-------------------Tuples------------------");
+    tuples::run();
+    println!("-------------------Arrays------------------");
+    arrays::run();
+    println!("-------------------Vector------------------");
+    vectors::run();
+    println!("-------------------Conditionals------------------");
+    conditionals::run();
+    println!("-------------------Loops------------------");
+    loops::run();
+    println!("-------------------Functions------------------");
+    functions::run();
+    println!("-------------------Pointer------------------");
+    pointers::run();
+    println!("-------------------Structs------------------");
+    structs::run();
+    println!("-------------------Enums------------------");
+    enums::run();
+    println!("-------------------CLI------------------");
+    cli::run();
+}
